@@ -1,0 +1,82 @@
+body {
+    background: url(/img/bg.jpg);
+    background-size: cover;
+    font-family: 'Montserrat';
+    margin: 0 0 0 0;
+}
+
+.wrapper {
+    padding-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    max-width: 570px;
+    height: 662px;
+    margin: 100px auto;
+    background-color: rgba(0,0,0,0.3);
+    border-radius: 20px;
+}
+
+.wrapper h2 {
+    font-family: serif;
+    font-size: 35px;
+    font-style: italic;
+    color: #FFFFFF;
+    margin: 26px auto;
+}
+
+.wrapper form img {
+    width: 25px;
+}
+
+.wrapper .input-flex {
+    margin: 25px auto;
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    padding: 15px 30px 15px 20px;
+    width: 332px;
+    height: 30px;
+    border: 2px solid #ffffff;
+    border-radius: 10px;
+    background-color: #ffffff00;
+}
+
+.wrapper input {
+    width: 332px;
+    border: 0 solid #ffffff;
+    background-color: #ffffff00;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    color: rgb(255, 255, 255);
+}
+
+.wrapper input:focus, :hover, :active {
+    outline: none;
+    outline-offset: 0;
+}
+
+.wrapper input::placeholder {
+    font-size: 16px;
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.wrapper form button {
+    cursor: pointer;
+    display: block;
+    margin: 50px auto;
+    background: rgba(0, 0, 0, 0);
+    border-color: rgba(0, 0, 0, 0);
+    height: 30px;
+    font-style: normal;
+    font-size: 20px;
+    color: #d6d6d6;
+    transition: 50ms;
+}
+
+.registration button:hover {
+    color: #ffffff;
+}
