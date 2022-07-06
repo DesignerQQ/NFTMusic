@@ -18,4 +18,3 @@ class Hero {
 let Vayne = new Hero ("Vayne")
 
 Vayne.attack
-
